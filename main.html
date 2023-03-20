@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVS</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+  
+    <div class="box">
+        <div class="textBox">
+            <h1 id="nadpis">MOVS</h1> 
+            <h1 id="txt">Can't seem to make up your<br>mind on what movie to watch?<br><span style="color: aqua;">Let us help!</span></h1>
+            <h3 id="txt2">We understand that sometimes it can be difficult to decide on what movie to watch,<br>especially with the overwhelming amount of choices available.<br>That's why we created this platform to make<br>the process of choosing a movie more fun and exciting.</h3>
+
+            <div class="zanrBox">
+                <button onclick="fun1()" id="btn">Find movie</button> 
+                <div class="menu">
+                    <input id="menuBtn" value="Choose a genre" type="button"class="menuBtn">
+                    <div class="menuContent">
+                        <a onclick="horror()">Horror</a>
+                        <a onclick="anim()">Animated</a>  
+                        <a onclick="thril()">Thriller</a>
+                        <a onclick="crime()">Crime</a>  
+                        <a onclick="comedy()">Comedy</a> 
+                        <a onclick="scifi()">Sci-Fi</a>  
+                        <a onclick="action()">Action</a>
+                        <a onclick="work()">All</a>              
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="posterBox" class="posterBox">
+            <img id="poster" src="" width="350" height="550" alt="">
+            <div id="buttonBox">
+                <a id="bombujLink" href="" target="_blank"><img width="153.6" height="100" id="bombujPic" src="watch.png" alt=""></a>
+                <a id="csfdLink" href="" target="_blank"><img width="153.6" height="86.4" id="csfdPic" src="letter.png" alt=""></a>
+            </div>
+        </div>  
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
