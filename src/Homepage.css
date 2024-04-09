@@ -1,0 +1,23 @@
+#nadpis {
+    width: 250px;
+    font-size: 100px;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #66FCF1;
+}
+#txt {
+    margin-top: 90px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    color: white;
+}
+#txt2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    color: white;
+}
+.textBox{
+    width: 700px;
+    margin-left: 100px;
+}

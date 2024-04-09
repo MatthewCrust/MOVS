@@ -1,0 +1,142 @@
+body{
+    background-color:  #1F2833;
+    background-image: url(pozad.jpg);
+    background-size: 1920px 1080px ;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+}
+
+#btn{
+    font-size: xx-large;    
+    height: 60px ;
+    width: 220px;
+    background-color:#333333;
+    color: white;
+    border-radius: 4px;
+    border: solid 3px white;
+
+}
+#btn:hover{
+    cursor: pointer;
+    background-color:#333333 ;
+    color: #66FCF1;
+    border-color:#66FCF1 ;
+}
+#btn:active{
+    border: none;
+}
+
+#poster{
+    margin-top: 20px;   
+}
+
+.menuBtn {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 0px;
+    font-size: 14px;
+    border: solid 3px black;
+    width: 150px;
+    height: 30px;
+    margin-left: 30px;
+  }
+  .menu {
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;  
+  }
+  .menuContent {
+    margin-left: 30px;
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 68.5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    bottom: 30px;   
+  } 
+  .menuContent a {
+    text-align: center;
+    color: white;   
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .menuContent a:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: black;
+}
+
+  .menu:hover .menuContent {display: block;}
+
+  .menu:hover .menuBtn {
+    background-color: #333333;
+    border:solid 3px white;
+} 
+
+.zanrBox{
+    width: 220px;
+    margin-left: 0px;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    margin-left: 100px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.posterBox{
+    display: flex;
+    flex-direction: row;
+    height: 2000px;
+    width: 650px;
+    margin-right: 100px;
+}    
+#poster{
+    margin-top: 50px;
+    border: solid 3px white;
+}
+#buttonBox{
+    background-color: black;
+    border-radius: 8px;
+}
+.movieTextBox{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.yearBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    margin-top: 10px;
+}
+.yearInput{
+    background-color:#1a1a1a;
+    color: white;
+    border: solid 2px black;
+    width: 70px;
+    height: 30px;
+}
+#minYearInput{
+    margin-right: 30px;
+}
+.ratingBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#minRatingInput{
+    margin-top: 5px;
+}
